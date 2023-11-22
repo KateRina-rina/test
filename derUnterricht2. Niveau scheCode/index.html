@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="./css/styles.css">
+    <title>Document</title>
+    
+  </head>
+  <!--<script>
+    var canvas = document.getElementById("myCanvas");
+    var ctx = canvas.getContext("2d");
+    var pi = Math.PI;
+    conext.beginPath();
+    ctx.arc(35, 35, 20 , 0, pi /3, false);
+    conext.closePath();
+    ctx.stroke();
+  </script>
+  <style>
+    .canvas{
+   width: 52px;
+    height: 52px;
+    border: 3px solid black;
+}
+  </style>-->
+  <body>
+    <header>
+      <a class="navbar" href="/">
+        <img
+          alt="SheCodes"
+          src="/assets/branding/logo-shecodes-f9fa0540d113c086f61eb6e89466c0cbd24a42163b6a96d4b01da078803f53ee.png"
+        />
+      </a>
+    </header>
+    <form>
+      <div class="search-city">
+        <input
+          type="search"
+          placeholder="Enter a city.."
+          class="search-input"
+        />
+      </div>
+      <div class="search-btn">
+        <input type="submit" class="btn" value="Search" />
+      </div>
+    </form>
+    <div class="metcast">
+      <div>
+        <h1>San Francisco</h1>
+        <ul>
+          <li>Thursday 20 : 13, broken clouds</li>
+          <li>
+            Humidity:
+            <strong>76 %</strong>
+            , Wind:
+            <strong>3,13 km/h</strong>
+          </li>
+        </ul>
+      </div>
+      <div>
+        <div class="temperature-container">
+            <!--<div class="canvas">
+          <canvas id="myCanvas"  width="52" height="52"></canvas>
+          </div>-->
+
+          
+            <span class="current-ikon">☀️</span> 
+            <span class="temperature">17</span>
+            <span class="unit">°C</span>
+        
+        </div>
+      </div>
+    </div>
+    <section class="container-day">
+      <ul class="day">
+        <li class="monday">Mon</li>
+        <li class="animation-day">⛅</li>
+
+        <li class="temperature-day">
+          <strong class="temperature-day-max">17°</strong>
+          <strong class="temperature-day-min">14°</strong>
+        </li>
+      </ul>
+      <ul class="day">
+        <li class="tuesday">Tues</li>
+        <li class="animation-day">⛅</li>
+        <li class="temperature-day">
+          <strong class="temperature-day-max">15°</strong>
+          <strong class="temperature-day-min">13°</strong>
+        </li>
+      </ul>
+      <ul class="day">
+        <li class="wednesday">Wedn</li>
+        <li class="animation-day">☁</li>
+        <li class="temperature-day">
+          <strong class="temperature-day-max">15°</strong>
+          <strong class="temperature-day-min">13°</strong>
+        </li>
+      </ul>
+
+      <ul class="day">
+        <li class="thursday">Thur</li>
+        <li class="animation-day">🌧</li>
+
+        <li class="temperature-day">
+          <strong class="temperature-day-max">13°</strong>
+          <strong class="temperature-day-min">10°</strong>
+        </li>
+      </ul>
+      <ul class="day">
+        <li class="friday">Fry</li>
+        <li class="animation-day">🌧</li>
+        <li class="temperature-day">
+          <strong class="temperature-day-max">13°</strong>
+          <strong class="temperature-day-min">10°</strong>
+        </li>
+      </ul>
+    </section>
+    <footer>
+      <p>
+        This project was coded by
+        <a
+          href="https://www.shecodes.io/"
+          target="_blank"
+          rel="noopener noreferrer"
+          >SheCodes</a
+        >
+      </p>
+    </footer>
+  </body>
+</html>
